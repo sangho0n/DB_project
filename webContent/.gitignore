@@ -1,0 +1,9 @@
+.settings/
+
+.git/
+
+.DB/
+
+.project
+
+.classpath
