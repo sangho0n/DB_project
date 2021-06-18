@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.info-name {
+  flex-shrink: 0;
+}
+
+.info-menus {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  flex: 1 0 auto;
+}
+
+.info-menu:nth-child(2) {
+  margin: 0 1.5rem;
+}
+
+.info-content {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8rem;
+}
+
+.info-content:nth-child(1) {
+  height: 100vh;
+  background-image: url("./images/info_배경.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.info-overview > .info-description {
+  font-size: 0.8rem;
+}
+
+.info-eng-title {
+  opacity: 0.5;
+}
+
+.info-buttons {
+  margin-top: 3rem;
+}
+
+.info-button {
+  appearance: button;
+  background-color: transparent;
+  border: 1.5px solid black;
+  outline: none;
+  border-radius: 4px;
+  width: 6rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 1.8rem;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.info-button:hover {
+  opacity: 0.5;
+}
+
+.info-title {
+  display: flex;
+  align-items: baseline;
+}
+
+.info-kor-title {
+  flex-shrink: 0;
+}
+
+.info-image {
+  margin: 0 2rem;
+}
+
+.info-content:nth-child(3) {
+  background-color: #fdac7c;
+}
+
+.info-footer {
+  height: 3.8rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 3.8rem;
+}
