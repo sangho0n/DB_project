@@ -106,7 +106,7 @@ function makeOverListener(marker,i,content) {
     	 
     	 content.onclick = function() { 
     		custom_arr1[i].setZIndex(2);
-    		custom_arr.setZIndex(0);
+    		custom_arr[i].setZIndex(0);
     	}
 
 	     end_markers[i].setVisible(true);
