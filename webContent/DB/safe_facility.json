@@ -1,0 +1,52 @@
+[
+{
+"district_name": "중구",
+"safty_label": 846,
+"crosswalk": 663
+},
+{
+"district_name": "동구",
+"safty_label": 0,
+"crosswalk": 0
+},
+{
+"district_name": "미추홀구",
+"safty_label": 0,
+"crosswalk": 0
+},
+{
+"district_name": "연수구",
+"safty_label": 1252,
+"crosswalk": 319
+},
+{
+"district_name": "남동구",
+"safty_label": 0,
+"crosswalk": 0
+},
+{
+"district_name": "부평구",
+"safty_label": 116,
+"crosswalk": 7
+},
+{
+"district_name": "계양구",
+"safty_label": 107,
+"crosswalk": 0
+},
+{
+"district_name": "서구",
+"safty_label": 935,
+"crosswalk": 402
+},
+{
+"district_name": "강화군",
+"safty_label": 0,
+"crosswalk": 0
+},
+{
+"district_name": "옹진군",
+"safty_label": 158,
+"crosswalk": 0
+}
+]
