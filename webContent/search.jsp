@@ -66,7 +66,7 @@ if (navigator.geolocation) {
 //marker.setMap(map);  
 function displayMarker(locPosition, message) {
 
-	var imageSrc = 'resources/map-marker-icon_34392.png', // 마커이미지의 주소입니다    
+	var imageSrc = 	var imageSrc = 'styles/images/map-marker-icon_34392.png', // 마커이미지의 주소입니다    
     imageSize = new kakao.maps.Size(45, 45); // 마커이미지의 크기입니다
   
 	// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
