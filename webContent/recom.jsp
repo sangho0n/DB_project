@@ -2,20 +2,15 @@
     pageEncoding="UTF-8" import="java.sql.*"%>
 <%
 request.setCharacterEncoding("utf-8");
-
 Class.forName("com.mysql.jdbc.Driver");
 String DB_URL = "jdbc:mysql://localhost:3001/db_proj?allowPublicKeyRetrieval=true&useSSL=false";
 String DB_USER = "admin";
 String DB_PASSWORD= "1234";
-
 Connection con= null;
 PreparedStatement pstmt = null;
 ResultSet rs = null;
-
 con = DriverManager.getConnection(DB_URL,DB_USER,DB_PASSWORD);
-
 String sql = "select * from gross_lengths natural join safe_facility order by `전용도로연장` desc, safty_label desc";
-
 pstmt = con.prepareStatement(sql);
 rs = pstmt.executeQuery();
 int i = 1;
@@ -32,26 +27,20 @@ int i = 1;
 	crossorigin="anonymous">
 <link rel="stylesheet" href="styles/master.css">
 <title>추천</title>
+ <link rel="stylesheet" href="./styles/info.css"/>
 </head>
+
 <body>
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light"
-		style="background-color: white; opacity: 0.95;">
-		<div class="d-flex">
-			<a class="navbar-brand" href="info.jsp">자전거</a>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent"
-				style="float: right;">
-				<ul class="navbar-nav mb-2 mb-lg-0">
-					<li class="nav-item i1"><a class="nav-link disabled"
-						aria-current="page" aria-disabled="true" tabindex="-1">recommendation</a>
-					</li>
-					<li class="nav-item i2"><a class="nav-link" href="search.jsp"
-						style="color: black;">search</a></li>
-					<li class="nav-item i3"><a class="nav-link" href="community.jsp" 
-						style="color: black;">community</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	<header class="info-header">
+      <h2 class="info-name"><a href="info.jsp">자전거</a></h2>
+      <nav class="info-navbar">
+        <ul class="info-menus">
+          <li class="info-menu"><a href="recom.jsp">recommendation</a></li>
+          <li class="info-menu"><a href="search.jsp">search</a></li>
+          <li class="info-menu"><a href="community.jsp">community</a></li>
+        </ul>
+      </nav>
+    </header>
 
 	<section id="body">
 		<div id="carouselExampleControls" class="carousel slide"
@@ -96,7 +85,6 @@ int i = 1;
 </body>
 </html>
 <%
-
 rs.close();
 pstmt.close();
 con.close();
