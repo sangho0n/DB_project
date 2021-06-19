@@ -134,13 +134,8 @@ function makeOverListener(marker,i,content) {
     	 custom_arr1[i].setMap(null);
     	 end_markers[i].setVisible(false);
 	     
-    	 if(!cnt_0){
-    	    set_V_Markers(true,markers1);
-    	    set_V_Markers(true,markers2);
-    	    set_V_Markers(true,markers3);
-    	  }
-    	          
-    	 else if(cnt_1==1){
+     	          
+    	 if(cnt_1==1){
     	    set_V_Markers(true,markers1);
     	  }
     	 else if(cnt_2==1){
@@ -149,6 +144,11 @@ function makeOverListener(marker,i,content) {
     	 else if(cnt_3==1){
     	    set_V_Markers(true,markers3);
     	  }
+    	 else if(!cnt_0){
+     	    set_V_Markers(true,markers1);
+     	    set_V_Markers(true,markers2);
+     	    set_V_Markers(true,markers3);
+     	  }
 
      }
      click_cnt=!click_cnt;
