@@ -9,6 +9,7 @@
 <meta charset="UTF-8">
 <title>community_write</title>
 <link rel="stylesheet" href="./styles/info.css" />
+<link rel="stylesheet" href="./styles/view.css" />
 </head>
 <body>
     <header class="info-header">
@@ -36,7 +37,7 @@
 		Community community = new CommunityDao().getCommunity(ID);
 		
 	%>
-		<div>
+		<div class="view">
 			<table class="table table-striped" style="text-align: center;">
 					<tr>
 						<td style="background-color: #eeeeee; width: 20%;">글 제목</td>
@@ -52,7 +53,7 @@
 					</tr>
 
 			</table>
-			<input type="button" value="목록" onClick="location.href='community.jsp'">
+			<input class="view-button" type="button" value="목록" onClick="location.href='community.jsp'">
 			
 		</div>
 </body>
