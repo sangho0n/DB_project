@@ -37,7 +37,7 @@ int i = 1;
 	<nav class="navbar fixed-top navbar-expand-lg navbar-light"
 		style="background-color: white; opacity: 0.95;">
 		<div class="container-fluid d-flex">
-			<a class="navbar-brand" href="info.html">자전거(가칭)</a>
+			<a class="navbar-brand" href="info.jsp">자전거(가칭)</a>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent"
 				style="float: right;">
 				<ul class="navbar-nav mb-2 mb-lg-0">

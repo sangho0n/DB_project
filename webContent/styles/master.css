@@ -22,6 +22,10 @@ body, html {
 	height: 100%;
 }
 
+.navbar{
+	display: block;
+}
+
 .container-fluid {
 	padding: 0 10% 0 10%;
 }
