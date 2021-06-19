@@ -1,0 +1,59 @@
+.com-write {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.com-form {
+  width: 40%;
+}
+
+table {
+  width: 100%;
+}
+
+.com-write-title {
+  width: 100%;
+  height: 3rem;
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  border: none;
+  border-bottom: 4px solid #fdac7c;
+  margin-bottom: 1.5rem;
+}
+
+.com-write-title::placeholder {
+  font-size: 1.2rem;
+}
+
+.com-write-content::placeholder {
+  opacity: 0.6;
+}
+
+.com-write-content {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+}
+
+.com-submit {
+  border-radius: 12px;
+  border: 1px solid black;
+  background-color: white;
+  width: 5rem;
+  float: right;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.com-back {
+  border-radius: 12px;
+  border: 1px solid black;
+  background-color: white;
+  width: 5rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
