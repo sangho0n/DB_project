@@ -1,0 +1,41 @@
+.view {
+  margin-top: 1rem;
+}
+
+.table {
+  margin: auto;
+  height: 75vh;
+  max-width: 80vw;
+}
+
+tr {
+  font-size: 0.9rem;
+}
+
+tr:nth-child(1) {
+  height: 10%;
+}
+
+tr:nth-child(2) {
+  height: 10%;
+}
+
+tr:nth-child(3) {
+  height: 80%;
+}
+
+tr:nth-child(3) > td:nth-child(2) {
+  padding: 0 1rem;
+}
+
+.view-button {
+  border-radius: 12px;
+  border: 1px solid black;
+  background-color: white;
+  width: 5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  float: right;
+  margin-right: 12rem;
+  margin-top: 0.2rem;
+}
