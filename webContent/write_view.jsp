@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="info-header">
-      <h2 class="info-name">자전거</h2>
+      <h2 class="info-name"><a href="info.jsp">자전거</a></h2>
       <nav class="info-navbar">
         <ul class="info-menus">
           <li class="info-menu"><a href="recom.jsp">recommendation</a></li>
