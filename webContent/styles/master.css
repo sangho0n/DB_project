@@ -77,12 +77,14 @@ body, html {
 	height: 400px;
 	position: absolute;
 	top : 30%;
-	left: 20%;
+	left: 25%;
 	border-radius: 10px;
 	padding: 20px;
 }
 .car-pic{
 	position: absolute;
-	top : 30%;
-	right: 20%;
+	top : 40%;
+	right: 25%;
+	width: 300px;
+	height: 200px;
 }
