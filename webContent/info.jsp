@@ -6,32 +6,17 @@
   <head>
     <meta charset="UTF-8" />
     <title>home</title>
-	<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-	crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/info.css" />
-    <link rel="stylesheet" href="styles/master.css">
+    <link rel="stylesheet" href="./styles/info.css"/>
   </head>
-  <body>
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light"
-		style="background-color: white; opacity: 0.95;">
-		<div class="container-fluid d-flex">
-			<a class="navbar-brand" href="info.jsp">자전거(가칭)</a>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent"
-				style="float: right;">
-				<ul class="navbar-nav mb-2 mb-lg-0">
-					<li class="nav-item i1"><a class="nav-link" href="recom.jsp" style="color: black;">recommendation</a>
-					</li>
-					<li class="nav-item i2"><a class="nav-link" href="search.jsp"
-						style="color: black;">search</a></li>
-					<li class="nav-item i3"><a class="nav-link" href="community.jsp" 
-						style="color: black;">community</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+  <body><header class="info-header">
+      <h2 class="info-name"><a href="info.jsp">자전거</a></h2>
+      <nav class="info-navbar">
+        <ul class="info-menus">
+          <li class="info-menu"><a href="recom.jsp">recommendation</a></li>
+          <li class="info-menu"><a href="search.jsp">search</a></li>
+          <li class="info-menu"><a href="community.jsp">community</a></li>
+        </ul>
+      </nav>
     </header>
     <div class="info-main">
       <section class="info-content">

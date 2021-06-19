@@ -26,9 +26,6 @@ body, html {
 	display: block;
 }
 
-.container-fluid {
-	padding: 0 10% 0 10%;
-}
 
 #navbarSupportedContent {
 	position: relative;
@@ -39,9 +36,14 @@ body, html {
 	right: 0;
 }
 
+.navbar-brand{
+	margin: 0 0 0 2%;
+	font-style: bold;
+}
+
 .i1 {
 	position: relative;
-	right: 30%
+	right: 30%;
 }
 
 .i2 {
