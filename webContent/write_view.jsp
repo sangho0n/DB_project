@@ -8,8 +8,19 @@
 <head>
 <meta charset="UTF-8">
 <title>community_write</title>
+<link rel="stylesheet" href="./styles/info.css" />
 </head>
 <body>
+    <header class="info-header">
+      <h2 class="info-name">자전거</h2>
+      <nav class="info-navbar">
+        <ul class="info-menus">
+          <li class="info-menu"><a href="recom.jsp">recommendation</a></li>
+          <li class="info-menu"><a href="search.jsp">search</a></li>
+          <li class="info-menu"><a href="community.jsp">community</a></li>
+        </ul>
+      </nav>
+    </header>
 <% 
 		int ID = 0;
 		if (request.getParameter("ID") != null) {
@@ -41,7 +52,7 @@
 					</tr>
 
 			</table>
-			<input type="button" value="목록" onClick="location.href='community_list.jsp'">
+			<input type="button" value="목록" onClick="location.href='community.jsp'">
 			
 		</div>
 </body>

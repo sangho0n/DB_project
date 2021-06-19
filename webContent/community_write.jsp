@@ -6,8 +6,19 @@
 <head>
 <meta charset="UTF-8">
 <title>community_write</title>
+<link rel="stylesheet" href="./styles/info.css" />
 </head>
 <body>
+    <header class="info-header">
+      <h2 class="info-name">자전거</h2>
+      <nav class="info-navbar">
+        <ul class="info-menus">
+          <li class="info-menu"><a href="recom.jsp">recommendation</a></li>
+          <li class="info-menu"><a href="search.jsp">search</a></li>
+          <li class="info-menu"><a href="community.jsp">community</a></li>
+        </ul>
+      </nav>
+    </header>
 <div>
 			<form method="post" action="write_action.jsp">
 				<table style="text-align: center;">

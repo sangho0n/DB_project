@@ -34,7 +34,7 @@
 				} else {
 
 				%>
-				<script>location.href = 'community_list.jsp'</script> 
+				<script>location.href = 'community.jsp'</script> 
 				<% 
 				
 				}
