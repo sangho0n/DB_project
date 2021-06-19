@@ -11,8 +11,19 @@
 	background-color: white;
 	}
     </style>
+     <link rel="stylesheet" href="./styles/info.css" />
 </head>
 <body>
+<header class="info-header">
+      <h2 class="info-name">자전거</h2>
+     <nav class="info-navbar">
+        <ul class="info-menus">
+          <li class="info-menu"><a href="recom.jsp">recommendation</a></li>
+          <li class="info-menu"><a href="search.jsp">search</a></li>
+          <li class="info-menu"><a href="community.jsp">community</a></li>
+        </ul>
+      </nav>
+         </header>
 <div id="map" style="width:100%;height:350px;"></div>
  
 
@@ -66,7 +77,7 @@ if (navigator.geolocation) {
 //marker.setMap(map);  
 function displayMarker(locPosition, message) {
 
-	var imageSrc = 	var imageSrc = 'styles/images/map-marker-icon_34392.png', // 마커이미지의 주소입니다    
+	var imageSrc = 'styles/images/map-marker-icon_34392.png', // 마커이미지의 주소입니다    
     imageSize = new kakao.maps.Size(45, 45); // 마커이미지의 크기입니다
   
 	// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
